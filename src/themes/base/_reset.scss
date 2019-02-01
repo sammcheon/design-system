@@ -1,0 +1,64 @@
+/* ref: https://github.com/philipseo/reset-css */
+html, body,
+div, span, applet, object, iframe,
+p, blockquote, pre, h1, h2, h3, h4, h5, h6,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+ol, ul, li, dl, dt, dd,
+form, fieldset, label, legend, input, select, textarea, button,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, :before, :after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    color: inherit;
+    word-break: break-all;
+    vertical-align: baseline;
+    background: transparent;
+    box-sizing: border-box;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+    &:before, &:after {
+        content: none;
+    }
+}
+
+a {
+    text-decoration: none;
+    &:active, &:hover, &:focus, &:visited {
+        text-decoration: none;
+        outline: none;
+    }
+}
+
+input, select, textarea, button {
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    box-sizing: border-box;
+    resize: none;
+    outline: 0;
+    -webkit-appearance: none;
+    &:active, &:hover, &:focus, &:visited {
+        outline: 0;
+    }
+}
+
+table {
+    table-layout: fixed;
+    border-collapse: collapse;
+    border-spacing: 0;
+}

@@ -1,0 +1,13 @@
+// OS
+.DS_Store
+
+// build Tool
+.idea
+.vscode
+
+// npm
+npm-debug.log
+
+// project dependencies
+node_modules
+dist
