@@ -1,7 +1,7 @@
 <template>
     <div id="not-found">
         <p>Page Not Found</p>
-        <button :to="{ name: 'HelloWorld' }">Back to HelloWorld</button>
+        <router-link :to="{ name: 'HelloWorld' }">Back to HelloWorld</router-link>
     </div>
 </template>
 <script>
